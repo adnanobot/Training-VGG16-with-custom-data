@@ -1,0 +1,9 @@
+pandas
+numpy
+awscli
+urllib3
+tqdm
+tensorflow
+keras
+opencv-contrib-python
+pillow
