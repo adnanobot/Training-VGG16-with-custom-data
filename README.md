@@ -12,9 +12,16 @@
       
       *for validation and test data replace train by test/validation
       
-  3. Easy way to see 
+     Easy way to see 
      [here](https://www.learnopencv.com/fast-image-downloader-for-open-images-v4/)
      which of types of objects are available and how many instances. 
+    
+   3. Install the required packages: 
+   `pip install -r requirements.txt`
+   
+ ### Possible issues: 
+  1. If keras raises issues regarding tensorflow.graph, that's because of tensorflow 2.0.
+     Solution: Replace keras by tensorflow.keras in vgg16.py file
     
 References:
  [1] Medium
